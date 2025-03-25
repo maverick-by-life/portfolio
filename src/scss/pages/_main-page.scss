@@ -350,7 +350,8 @@
 
     span {
       display: block;
-      padding: 2px 5px;
+      padding: 2px 7px;
+      padding-top: 4px;
       position: absolute;
       top: auto !important;
       bottom: -30px;
@@ -404,6 +405,12 @@
     a {
       color: $white-gray;
       text-decoration: underline;
+      transition: color .3s ease-in-out;
+      text-underline-offset: 4px;
+
+      &:hover {
+        color: $blue;
+      }
     }
   }
 
